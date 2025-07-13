@@ -1,8 +1,10 @@
+import BlogCard from "@/components/BlogCard";
+
 export default function Home() {
   return (
-    <div className="container min-h-screen flex justify-center items-center mx-auto">
+    <div className="container mx-auto min-h-screen px-4">
       <main>
-        <p className="text-center text-xl font-semibold">Burası ana bölüm</p>
+        <BlogCard></BlogCard>
       </main>
     </div>
   );

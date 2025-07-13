@@ -8,7 +8,11 @@ export default function Header() {
         <Link href="/" className="text-2xl font-bold hover:text-blue-500">
           Blog
         </Link>
-        <Link href="/" className="text-2xl font-bold hover:text-blue-500">
+        <Link
+          href="https://github.com/fatihsuslu"
+          target="__blank"
+          className="text-2xl font-bold hover:text-blue-500"
+        >
           About
         </Link>
       </div>
