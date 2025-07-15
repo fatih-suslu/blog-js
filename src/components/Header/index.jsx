@@ -9,7 +9,7 @@ export default function Header() {
           Blog
         </Link>
         <Link
-          href="https://github.com/fatihsuslu"
+          href="https://github.com/fatih-suslu"
           target="__blank"
           className="text-2xl font-bold hover:text-blue-500"
         >

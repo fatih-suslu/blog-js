@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function BlogCard({ title, body, id }) {
   return (
     <Link
-      href="/"
+      href={`/${id}`}
       className="flex items-center gap-4 border rounded-lg hover:shadow-md transition-shadow"
     >
       <div className="w-24 h-24 relative flex-shrink-0">
